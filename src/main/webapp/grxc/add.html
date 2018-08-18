@@ -1,0 +1,54 @@
+, <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>新建相册</title>
+</head>
+<body ng-app="app" ng-controller="xc" class="container">
+<div class="text-center">
+			<div align="center" style="height: 30px;background-color: #eee;position: fixed;z-index: 99;width: 100%;padding-top: 5px" class="navbar-fixed-top" >
+				<div class="col-xs-3 col-md-3" ></div>
+				<div class="col-xs-6 col-md-6 nav-title">新建相册</div>
+				<div class="col-xs-3 col-md-3 text-right" ></div>
+<!-- 				<a>删除</a>
+				<a>编辑</a> -->
+			</div>
+<div class="row" style="margin-bottom: 20px;margin-top: 50px;">
+<div class="col-xs-4 col-md-4">相册名称</div>
+<div class="col-xs-8 col-md-8">
+<input  class="form-control">
+</div>
+</div>
+
+<div class="row" style="margin-bottom: 20px;margin-top: 50px;">
+<div class="col-xs-4 col-md-4">相册描述</div>
+<div class="col-xs-8 col-md-8">
+<textarea rows="10" cols="37" ></textarea>
+</div>
+</div>
+
+<div class="row" style="margin-bottom: 20px;margin-top: 50px;">
+<div class="col-xs-4 col-md-4">观看权限</div>
+<div class="col-xs-8 col-md-8">
+<input type="radio">仅自己可见
+<input type="radio">所有人可见
+</div>
+</div>
+
+<div class="row" style="margin-bottom: 20px;margin-top: 50px;">
+<div class="col-xs-12 col-md-6" style="margin-bottom: 20px"><input  type="button" class="btn btn-info  btn-block" value="保存" onclick="location='/grxc/xc.html'"> </div>
+<div class="col-xs-12 col-md-6"><input  type="button" class="btn btn-danger  btn-block" value="取消" onclick="location='/grxc/xc.html'"></div>
+</div>
+</div>
+</body>
+</html>
+<link rel="stylesheet" type="text/css" href="/appcss/iconfont.css">
+<link rel="stylesheet" href="/appcss/app.css">
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script>
+var app = angular.module('app', []);
+app.controller('login', function() {
+
+});
+</script>

@@ -1,0 +1,42 @@
+, <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>相册</title>
+</head>
+<body ng-app="app" ng-controller="xc" class="container">
+<div class="text-center">
+			<div align="center" style="height: 30px;background-color: #eee;position: fixed;z-index: 99;width: 100%;padding-top: 5px" class="navbar-fixed-top" >
+				<div class="col-xs-3 col-md-3" ></div>
+				<div class="col-xs-6 col-md-6 nav-title	" >相册</div>
+				<div class="col-xs-3 col-md-3 text-right" ><i class="iconfont icon-xinjian" onclick="location='/grxc/add.html'">新建相册</i></div>
+<!-- 				<a>删除</a>
+				<a>编辑</a> -->
+			</div>
+			<div class="row main">
+			<div class="col-xs-12 col-md-6" align="center" style="margin-top: 20px"> <img alt="" src="/img/1.jpg" onclick="location='li.html'"><span>葫芦娃</span></div>
+			<div class="col-xs-12 col-md-6" align="center" style="margin-top: 20px"> <img alt="" src="/img/1.jpg"><span>苹果</span></div>		 
+			<div class="col-xs-12 col-md-6" align="center" style="margin-top: 20px"> <img alt="" src="/img/1.jpg"><span>苹果</span></div>		 
+			<div class="col-xs-12 col-md-6" align="center" style="margin-top: 20px"> <img alt="" src="/img/1.jpg"><span>苹果</span></div>		 
+			<div class="col-xs-12 col-md-6" align="center" style="margin-top: 20px"> <img alt="" src="/img/1.jpg"><span>苹果</span></div>		 
+			</div>
+<div style="position: fixed;background-color: #eee;height:40px;padding-top:8px;font-size: 18px" class="row navbar-fixed-bottom" >
+			<div class="col-xs-3 col-md-3"><a href="/grxc/xc.html">相册</a></div> 
+			<div class="col-xs-3 col-md-3"><a href="/fujin/fujin.html">附近</a></div> 
+			<div class="col-xs-3 col-md-3"><a href="/guanzhu/guanzhu.html">关注</a></div> 
+			<div class="col-xs-3 col-md-3"><a href="/wode/my.html">我的</a></div> 
+
+</div>	
+</div>
+</body>
+</html>
+<link rel="stylesheet" type="text/css" href="/appcss/iconfont.css">
+<link rel="stylesheet" href="/appcss/app.css">
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script>
+var app = angular.module('app', []);
+app.controller('login', function() {
+
+});
+</script>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>提现</title>
+</head>
+<body ng-app="app" ng-controller="xc" class="container">
+<div class="text-center">
+		<div align="center" style="height: 30px;background-color: #eee;position: fixed;z-index: 99;width: 100%;" class="navbar-fixed-top" >
+				<div class="col-xs-12 col-md-12 nav-title	" style="padding-top: 5px;" ><b>提现</b></div>
+				<div class="col-xs-3 col-md-3" ></div>
+<!-- 				<a>删除</a>
+				<a>编辑</a> -->
+		</div>
+		<div class="text-center row" style="margin-top: 150px">
+			<span>提现成功，您的佣金将在<span style="color: red;">24小时内</span>发放到银行卡请注意查看信息。</span>
+		</div>
+		<div class="row">
+		<div class="col-xs-12 col-md-12" style="margin-top: 50px"><input type="button" onclick="location='/wode/my.html'" value="确定"></div>
+		</div>
+</div>
+</body>
+</html>
+<link rel="stylesheet" href="/appcss/app.css">
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script>
+var app = angular.module('app', []);
+app.controller('login', function() {
+
+});
+</script>
